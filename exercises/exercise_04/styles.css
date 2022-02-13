@@ -1,0 +1,26 @@
+body{
+    background-color:pink;
+    font-family: 'Bebas Neue', sans-serif;
+    color: black;
+}
+p{
+    background-color: pink;
+    font-family: Arial, Helvetica, sans-serif;
+    color: navy;
+    line-height: 1.68;
+}
+.container{
+    background-color: pink;
+    display: flex;
+}
+.left{
+    width: 50%;
+    margin: 0px 15px 0px 5px;
+}
+.right{
+    width: 50%;
+    margin: 0px 5px 0px 15px;
+}
+.portuguese{
+    color: white;
+}
