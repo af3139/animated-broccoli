@@ -1,7 +1,33 @@
 body{
     font-family: 'Bebas Neue', sans-serif;
+    color: rgb(79, 79, 185);
 }
 p{
     font-family: Arial, Helvetica, sans-serif;
-    color: navy;
+    color: black;
+}
+.container{
+    display: flex;
+}
+.image-style{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.right{
+    justify-content: center;
+}
+.left{
+    width: 45%;
+}
+.blurb{
+    line-height: 1.4em;
+}
+.link1{
+    display: flex;
+    justify-content: left;
+}
+.link2{
+    display: flex;
+    justify-content: right;
 }

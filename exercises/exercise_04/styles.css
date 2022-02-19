@@ -16,10 +16,13 @@ p{
 .left{
     width: 50%;
     margin: 0px 15px 0px 5px;
+    border: 2px white;
 }
 .right{
     width: 50%;
     margin: 0px 5px 0px 15px;
+    padding: 50px 0px 0px 0px;
+    border: 2px black;
 }
 .portuguese{
     color: white;
