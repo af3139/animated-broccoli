@@ -1,18 +1,22 @@
  *{
      padding: 0;
      margin: 0;
+     color: white;
  }
  
  body{
-     background-color: rgb(241, 139, 156);
+    background-color:rgb(79, 79, 185);
  }
  p{
-    background-color:rgb(241, 139, 156);
+    background-color:rgb(79, 79, 185);
     font-family: 'Bebas Neue', sans-serif;
     font-size: 5em;
-    color: rgb(79, 79, 185);
+    color: white;
 }
 .container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    width: 100%;
+    line-height: 7em;
+    color: white;
 }
