@@ -1,0 +1,10 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+}
+
+.button:hover{
+    background-color: blue;
+    transition-delay: 1s;
+    transition-duration: 2s;
+  }
