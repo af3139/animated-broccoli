@@ -10,9 +10,9 @@ h3{
     text-decoration: underline;
 }
 body{
-    background-color: rgb(4, 106, 165);
+    background-color: rgb(177, 222, 248);
     font-family: 'Murecho', sans-serif;
-    color: whitesmoke;
+    color: rgb(20, 20, 20);
     font-family: 'Bebas Neue', sans-serif;
     text-decoration: none;
     font-size: 3em;
@@ -29,4 +29,19 @@ body{
 }
 .exercises{
     padding-top: 50px;
+}
+
+a:link {
+    color: rgb(20, 20, 20);
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(20, 20, 20);
+    text-decoration: none;
+
+}
+
+a:hover {
+    font-style: italic;
 }
