@@ -494,18 +494,7 @@ const chairs = [
         designer: "Verner Panton",
         country: "Denmark",
         image: "https://hivemodern.com/public_resources/full/verner-panton-cone-chair-vitra-2.jpg"
-    },
-    {
-        name: "",
-        year: "",
-        material: "",
-        designer: "",
-        country: "",
-        image: ""
-    },
-    
-
-
+    }
 ]
 
 const ul = document.querySelector("ul");
@@ -515,6 +504,7 @@ function renderChairsToPage(chairs) {
       let list_item = document.createElement("li");
 
       list_item.classList.add(chairs[i].country, "card");
+
       // add chair name
       let title = document.createElement("h3");
       title.textContent = chairs[i].name;
@@ -560,3 +550,33 @@ function renderChairsToPage(chairs) {
       }
     }
     filterBtns.addEventListener("click", filterFn);
+
+    let sortBtns = document.querySelector(".sort");
+    function sortingFn(event){
+        if (event.target.classList.contains("sort-btn")){
+            const sortValue = event.target.getAttribute("data-filter");
+            if (sortValue === "ascending"){
+                chairs.sort(function(a, b){
+                    if (a.year < b.year){
+                        return -1
+                    }
+                    if (a.year > b.year){
+                        return 1;
+                    }
+                    return 0;
+                });
+                console.log('sorted', chairs)
+                ul.HTML = "";
+                renderChairsToPage(chairs);
+
+            } else if (sortValue === "descending") {
+                chairs.reverse();
+                //clear page
+                ul.HTML = "";
+                renderChairsToPage(chairs);
+            }
+
+        }
+    }
+    sortBtns.addEventListener("click", sortingFn);
+

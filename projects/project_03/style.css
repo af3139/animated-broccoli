@@ -21,7 +21,7 @@
     width: 100%;
   }
   
-  .filter-btn {
+  .filter-btn, .sort-btn {
     color: white;
     background-color: #f15b31;
     border-radius: 20px;
@@ -31,7 +31,7 @@
     border: none;
   }
   
-  .filter-btn.active {
+  .filter-btn.active, .sort-btn.active {
     border-color: #16b5ef;
     background: #16b5ef;
   }
