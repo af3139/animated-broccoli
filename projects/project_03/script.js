@@ -494,6 +494,310 @@ const chairs = [
         designer: "Verner Panton",
         country: "Denmark",
         image: "https://hivemodern.com/public_resources/full/verner-panton-cone-chair-vitra-2.jpg"
+    },
+    {
+        name: "Elda Chair",
+        year: "1963",
+        material: "fabric",
+        designer: "Joe Colombo",
+        country: "Italy",
+        image: "https://www.artic.edu/iiif/2/498cf884-0602-3248-095c-2810f3584d6b/full/843,/0/default.jpg"
+    },
+    {
+        name: "Salon Chair",
+        year: "1936",
+        material: "metal",
+        designer: "Warren McArthur",
+        country: "USA",
+        image: "https://images-na.ssl-images-amazon.com/images/I/61DUkrNHMhL.jpg"
+    },
+    {
+        name: "Alu Chair",
+        year: "1957",
+        material: "metal",
+        designer: "Ray and Charles Eames",
+        country: "USA",
+        image: "https://i.pinimg.com/736x/7b/26/00/7b26005050cbda6d89de4811a41b22c5.jpg"
+    },
+    {
+        name: "Tip Ton",
+        year: "2008",
+        material: "plastic",
+        designer: "Edward Barber & Jay Osgerby",
+        country: "England",
+        image: "https://static.vitra.com/media-resized/lse7p8aNqRX8KnG6CGTbesAm1woAKBiku26AfJBnl2g/fill/1040/1390/ce/0/aHR0cHM6Ly9zdGF0aWMudml0cmEuY29tL21lZGlhL2Fzc2V0LzI0NjA1NTUvc3RvcmFnZS92X2Z1bGxibGVlZF8xNDQweC8zNDc2MzUyNy5qcGc.jpg"
+    },
+    {
+        name: "Soft Heart",
+        year: "1990",
+        material: "fabric",
+        designer: "Ron Arad",
+        country: "Italy",
+        image: "https://www.psmuseum.org/storage/app/uploads/public/a23/959/e79/thumb__1600_0_0_0_auto.jpg"
+    },
+    {
+        name: "RSR",
+        year: "1952",
+        material: "plastic",
+        designer: "Ray and Charles Eames",
+        country: "USA",
+        image: "https://eames-media.s3.amazonaws.com/724/RSR-Greige-Shell.jpg"
+    },
+    {
+        name: "Pastil Chair",
+        year: "1968",
+        material: "plastic",
+        designer: "Eero Aarnio",
+        country: "Finland",
+        image: "https://media.fds.fi/product_image/800/6EeroAarnio_Pastillipunainen_EK.jpg"
+    },
+    {
+        name: "Endless Flow Rocking Chair",
+        year: "2011",
+        material: "plastic",
+        designer: "Dirk Vander Kooij",
+        country: "Netherlands",
+        image: "https://www.moma.org/media/W1siZiIsIjI1MTIzNyJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MCAtcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=db9f5fc17d7f8ebe"
+    },
+    {
+        name: "Correalist Rocker",
+        year: "1942",
+        material: "wood",
+        designer: "Frederick Kiesler",
+        country: "Finland",
+        image: "https://static2.lot-art.com/public/upl/79/Attrib-Frederick-Kiesler-Correalist-Rocker-Chair_1589578366_8866.jpg"
+    },
+    {
+        name: "Relaxer 2",
+        year: "1974",
+        material: "wood",
+        designer: "Verner Panton",
+        country: "Denmark",
+        image: "https://img.vntg.com/16172776541827/verner-panton-relaxer-2-rocking-chair-for-rosenthal-1974.jpg"
+    },
+    {
+        name: "Sedia dattilo",
+        year: "1970",
+        material: "metal",
+        designer: "Ettore Sottsass",
+        country: "Italy",
+        image: "https://collectionapi.metmuseum.org/api/collection/v1/iiif/484847/1683657/restricted"
+    },
+    {
+        name: "The Swan",
+        year: "1957",
+        material: "fabric",
+        designer: "Arne Jacobsen",
+        country: "Denmark",
+        image: "https://static.turbosquid.com/Preview/2019/08/14__16_58_58/Previez01.jpg0BE59047-EFD4-4128-9251-283522D199B4Default.jpg"
+    },
+    {
+        name: "4814",
+        year: "1988",
+        material: "plastic",
+        designer: "Anna Castelli Ferrieri",
+        country: "Italy",
+        image: "https://cdn.incollect.com/sites/default/files/zoom/Anna-Castelli-Lounge-chair-4841-by-Anna-Castelli-Ferrieri-for-Kartell-1980s-451262-1919789.jpg"
+    },
+    {
+        name: "360 Chair",
+        year: "2010",
+        material: "plastic",
+        designer: "Konstantin Grcic",
+        country: "Germany",
+        image: "https://www.moma.org/media/W1siZiIsIjIwMjUyOCJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MCAtcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=b321ecac74fd95c7"
+    },
+    {
+        name: "Tube Chair",
+        year: "1969",
+        material: "plastic",
+        designer: "Joe Colombo",
+        country: "Italy",
+        image: "https://assets.catawiki.nl/assets/2020/8/30/e/9/1/e91dd150-c777-4a6e-97f3-9956f7129bd9.jpg"
+    },
+    {
+        name: "Colani",
+        year: "1972",
+        material: "plastic",
+        designer: "Luigi Colani",
+        country: "Germany",
+        image: "https://www.moma.org/media/W1siZiIsIjI2NTczNiJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MCAtcmVzaXplIDIwMDB4MjAwMFx1MDAzZSJdXQ.jpg?sha=0c805c96c63c3260"
+    },
+    {
+        name: "MC763",
+        year: "1928",
+        material: "metal",
+        designer: "Pierre Chareau",
+        country: "France",
+        image: "https://flockler.com/thumbs/sites/889/tjm_666-chareau_f018-chair-mc763_s600x0_q80_noupscale.jpg"
+    },
+    {
+        name: "Sitzgeiststuhl",
+        year: "1926",
+        material: "wood",
+        designer: "Heinz & Bodo Rasch",
+        country: "Germany",
+        image: "https://live.staticflickr.com/317/31664987960_1f261f8b87_b.jpg"
+    },
+    {
+        name: "S88",
+        year: "1956",
+        material: "wood",
+        designer: "Osvaldo Borsani",
+        country: "Italy",
+        image: "https://a.1stdibscdn.com/archivesE/upload/9331/18_15/2224902/2224902_l.jpeg"
+    },
+    {
+        name: "JH512",
+        year: "1949",
+        material: "wood",
+        designer: "Hans J. Wegner",
+        country: "Denmark",
+        image: "https://a.1stdibscdn.com/archivesE/upload/1121189/f_54277431473662318403/5427743_master.jpg?width=768"
+    },
+    {
+        name: "Araignée",
+        year: "1958",
+        material: "metal",
+        designer: "Hoffer",
+        country: "France",
+        image: "https://freight.cargo.site/w/1200/i/3e3031b014d02270f0266557d01e3c6f4113b754eca0d522284e1433cddb2c32/Hoffer--Araignee.png"
+    },
+    {
+        name: "B 25",
+        year: "1928",
+        material: "metal",
+        designer: "Marcel Breuer",
+        country: "Germany",
+        image: "http://www.artnet.com/WebServices/images/ll00034lldopVJFgoPECfDrCWvaHBOcuaXF/marcel-breuer-a-rare-b-25-seat-machine.jpg"
+    },
+    {
+        name: "Multichair",
+        year: "1970",
+        material: "fabric",
+        designer: "Joe Colombo",
+        country: "Italy",
+        image: "https://socialdesignmagazine.com/mag/products-selection/wp-content/uploads/sites/2/2020/12/Poltrona-Multichair-Rosso-B-LINE-Joe-Colombo.jpg"
+    },
+    {
+        name: "Chair for the H.C. Price Company Tower",
+        year: "1955",
+        material: "metal",
+        designer: "Frank Lloyd Wright",
+        country: "USA",
+        image: "https://www.wright20.com/items/index/2000/181_5_design_june_2015_frank_lloyd_wright_rare_executive_office_chair_from_price_tower_bartlesville_oklahoma__wright_auction.jpg?t=1456250379"
+    },
+    {
+        name: "Plywood Chair",
+        year: "1946",
+        material: "wood",
+        designer: "Herbert von Thaden",
+        country: "USA",
+        image: "https://www.wright20.com/items/index/2000/206_1_important_design_december_2012_herbert_von_thaden_plywood_chair__wright_auction.jpg?t=1517390458"
+    },
+    {
+        name: "Wink",
+        year: "1980",
+        material: "fabric",
+        designer: "Toshiyuki Kita",
+        country: "Italy",
+        image: "https://www.moma.org/media/W1siZiIsIjIzMDczNSJdLFsicCIsImNvbnZlcnQiLCItcXVhbGl0eSA5MCAtcmVzaXplIDIwMDB4MTQ0MFx1MDAzZSJdXQ.jpg?sha=b0599c3fde96882e"
+    },
+    {
+        name: "P40",
+        year: "1955",
+        material: "fabric",
+        designer: "Osvaldo Borsani",
+        country: "Italy",
+        image: "https://hivemodern.com/public_resources/borsani-p40-lounge-chair-osvaldo-borsani-tecno-2.jpg"
+    },
+    {
+        name: "Adjustable Chair",
+        year: "1870",
+        material: "metal",
+        designer: "George Wilson",
+        country: "USA",
+        image: "https://a.1stdibscdn.com/archivesE/upload/1121189/f_74397031494849857690/7439703_master.jpg"
+    },
+    {
+        name: "REX",
+        year: "2010",
+        material: "plastic",
+        designer: "Ineke Hans",
+        country: "Netherlands",
+        image: "https://www.inekehans.com/images/large/7638/rex-yellow-black-photo-annegien-van-doorn.jpg"
+    },
+    {
+        name: "Untitled",
+        year: "1933",
+        material: "metal",
+        designer: "Alfred Roth",
+        country: "Switzerland",
+        image: "https://assets.phillips.com/image/upload/t_Website_LotDetailMainImage/v1/auctions/UK050214/352_001.jpg"
+    },
+    {
+        name: "No. 2004",
+        year: "1969",
+        material: "plastic",
+        designer: "Alexander Begge",
+        country: "Germany",
+        image: "https://cdn20.pamono.com/p/s/1/2/1232330_rroe4zqlxt/german-casalino-chair-in-mocca-by-alexander-begge-for-casala-2000s.jpg"
+    },
+    {
+        name: "Poly",
+        year: "2005",
+        material: "plastic",
+        designer: "Karim Rashid",
+        country: "Italy",
+        image: "https://www.3dfurniture.net/media/catalog/product/cache/5d096ae0443227b075582d4bbb3a0ac7/k/a/karim_rashidspoly4.jpg"
+    },
+    {
+        name: "No. 577 (Tongue)",
+        year: "1963",
+        material: "fabric",
+        designer: "Pierre Paulin",
+        country: "Netherlands",
+        image: "https://assets.catawiki.nl/assets/2018/7/3/e/1/c/e1cbfbb0-b566-451e-9dcb-0fef94042481.jpg"
+    },
+    {
+        name: "BA 1171",
+        year: "1964",
+        material: "plastic",
+        designer: "Helmut Bätzner",
+        country: "Germany",
+        image: "https://live.staticflickr.com/7007/6585193463_f550daac77_w.jpg"
+    },
+    {
+        name: "B 32 (Cesca)",
+        year: "1928",
+        material: "metal",
+        designer: "Marcel Breuer",
+        country: "Germany",
+        image: "https://hivemodern.com/public_resources/full/cesca-chair-with-cane-seat-marcel-breuer-knoll-6.jpg"
+    },
+    {
+        name: "65",
+        year: "1934",
+        material: "wood",
+        designer: "Alvar & Aino Aalto",
+        country: "Finland",
+        image: "https://media.fds.fi/product_image/800/1Artek_AK.jpg"
+    },
+    {
+        name: "Chassis",
+        year: "2006",
+        material: "metal",
+        designer: "Stefan Diez",
+        country: "Germany",
+        image: "https://static.dezeen.com/uploads/2011/04/dzn_Chassis-by-Stefan-Diez-3.jpg"
+    },
+    {
+        name: "Steiger stacking chair",
+        year: "1932",
+        material: "metal",
+        designer: "Flora Steiger-Crawford",
+        country: "Switzerland",
+        image: "https://img.vntg.com/15681017023747/rare-chair-by-swiss-architect-flora-steiger-crawford.jpg"
     }
 ]
 
