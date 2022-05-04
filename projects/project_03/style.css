@@ -13,27 +13,28 @@
   }
   
   .filters,
-  .list {
+  .list,
+  .sort {
     /*   background-color: #f15b31; */
     padding: 20px;
     /*   display: flex; */
-    border: 2px solid #141414;
+    border: 1px solid #141414;
     width: 100%;
   }
   
   .filter-btn, .sort-btn {
-    color: white;
-    background-color: #f15b31;
-    border-radius: 20px;
-    width: 100px;
-    height: 30px;
+    color: black;
+    background-color: palegoldenrod;
+    width: 180px;
+    height: 40px;
     text-align: center;
-    border: none;
+    border: 1px solid black;
   }
   
   .filter-btn.active, .sort-btn.active {
-    border-color: #16b5ef;
-    background: #16b5ef;
+    border-color: black;
+    border: 1px solid black;
+    background-color: palegoldenrod;
   }
   
   ul {
@@ -51,7 +52,7 @@
   }
   
   li:hover {
-    background: blue;
+    background: rgb(135, 135, 229);
   }
   
   ul .card.hide {

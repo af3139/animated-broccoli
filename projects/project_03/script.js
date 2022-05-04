@@ -40,12 +40,12 @@ const chairs = [
         image: "https://www.wright20.com/items/index/2000/339_2_modernists_20_michael_and_gabrielle_boyd_september_2003_peter_behrens_side_chair_for_the_poet_richard_dehmel_hamburg__wright_auction.jpg?t=1620223128"
     },
     {
-        name: "Chair for house Laueli",
-        year: "1940",
-        material: "wood",
-        designer: "Berta Rahm",
-        country: "Switzerland",
-        image: ""
+        name: "Chair Soft Cell",
+        year: "1998",
+        material: "plastic",
+        designer: "Werner Aisslinger",
+        country: "Germany",
+        image: "https://www.aisslinger.de/app/uploads/soft_cell_content_001-1.jpg"
     },
     {
         name: "S-Chair",
@@ -181,12 +181,12 @@ const chairs = [
         image: "https://res.cloudinary.com/steelcasestore/image/upload/f_auto,q_auto:eco/v1638975965/Catalog/EM7EG9PF7TH4VU6UT7KZ/4970f0a0-5fb1-4750-b269-152a5bde2600.jpg"
     },
     {
-        name: "Lounge Chair for Kiva Cinema",
-        year: "1938",
+        name: "Chaise Ombre",
+        year: "1954",
         material: "wood",
-        designer: "Erik Bryggman",
-        country: "Finland",
-        image: ""
+        designer: "Charlotte Perriand",
+        country: "Japan",
+        image: "https://www.wright20.com/items/index/2000/261_2_art_design_january_2020_charlotte_perriand_ombre_chair__wright_auction.jpg?t=1627569516"
     },
     {
         name: "Locus solus",
