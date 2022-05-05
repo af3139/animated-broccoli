@@ -6,25 +6,31 @@
   
   html,
   body {
-    height: 100vh;
     width: 100%;
-    font-family: Helvetica, sans-serif;
+    font-family: Montserrat, sans-serif;
     font-size: 14px;
+  }
+
+  .fixed {
+    position: fixed;
   }
   
   .filters,
-  .list,
   .sort {
-    /*   background-color: #f15b31; */
     padding: 20px;
-    /*   display: flex; */
-    border: 1px solid #141414;
     width: 100%;
+  }
+
+  .list {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
   }
   
   .filter-btn, .sort-btn {
+    font-family: Montserrat, sans-serif;
     color: black;
-    background-color: palegoldenrod;
+    background-color: lime;
     width: 180px;
     height: 40px;
     text-align: center;
@@ -32,26 +38,28 @@
   }
   
   .filter-btn.active, .sort-btn.active {
+    font-family: Montserrat, sans-serif;
     border-color: black;
     border: 1px solid black;
-    background-color: palegoldenrod;
+    background-color: lime;
   }
   
   ul {
+    margin-top: 500 px;
     display: flex;
-    /*   flex-wrap: wrap; */
+    flex-wrap: wrap;
     justify-content: space-between;
   }
   
   li {
     list-style-type: none;
-    border: 2px solid #141414;
     padding: 10px;
     margin: 10px;
     width: 20%;
   }
   
   li:hover {
+    border: 2 px solid #141414;
     background: rgb(135, 135, 229);
   }
   
@@ -63,17 +71,9 @@
     animation: fadeIn 0.5s ease;
   }
   
-  @keyframes fadeIn {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
-  
   img {
     width: 100%;
-    height: 150px;
+    height: 300 px;
+    align-content: center;
   }
-  
+

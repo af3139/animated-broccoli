@@ -346,7 +346,7 @@ const chairs = [
         material: "foam",
         designer: "Ross Lovegrove",
         country: "Italy",
-        image: "http://www.rosslovegrove.com/wp-content/uploads/2012/04/2107.jpg"
+        image: "https://collectionapi.metmuseum.org/api/collection/v1/iiif/491852/992800/restricted"
     },
     {
         name: "A1C1",
@@ -453,7 +453,7 @@ const chairs = [
         material: "metal",
         designer: "William Katavolos",
         country: "USA",
-        image: "https://cdn.shopify.com/s/files/1/0289/5187/1548/products/45004756_01__master_81376809-a7f2-4d84-bf49-a2376aae068e.jpg?v=1649059127"
+        image: "https://a.1stdibscdn.com/archivesE/upload/1722654/f_58271831479237707326/LeatherThreeLeg_02_org_master.jpg?width=768"
     },
     {
         name: "103",
