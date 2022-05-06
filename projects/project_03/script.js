@@ -112,7 +112,7 @@ const chairs = [
     },
     {   name: "Random Chair",
         year: "2003",
-        material: "carbon fiber",
+        material: "plastic",
         designer: "Bertjan Pot",
         country: "Netherlands",
         image: "http://www.bertjanpot.nl/wp-content/uploads/2003/08/random_chair_3_SBP-portfolio.jpg"
@@ -807,25 +807,38 @@ function renderChairsToPage(chairs) {
     for (let i = 0; i < chairs.length; i++) {
       let list_item = document.createElement("li");
 
-      list_item.classList.add(chairs[i].country, "card");
+      list_item.classList.add(chairs[i].year, chairs[i].country, chairs[i].material, "card");
 
       // add chair name
       let title = document.createElement("h3");
       title.textContent = chairs[i].name;
 
+      //add chair year
+      let year = document.createElement("p");
+      year.textContent = chairs[i].year;
+
       // add chair country
       let country = document.createElement("p");
-      country.classList.add(chairs[i].country);
       country.textContent = chairs[i].country;
 
-       // add chair image
+      // add chair designer
+      let designer = document.createElement("p");
+      designer.textContent = chairs[i].designer;
+
+      // add chair material
+      let material = document.createElement("p");
+      material.textContent = chairs[i].material;
+
+      // add chair image
       let image = document.createElement("img");
       image.setAttribute("src", chairs[i].image);
 
       // append created elements to page
       ul.appendChild(list_item);
       list_item.appendChild(title);
+      list_item.appendChild(year);
       list_item.appendChild(country);
+      list_item.appendChild(designer);
       list_item.appendChild(image);
     }
   }
@@ -870,13 +883,13 @@ function renderChairsToPage(chairs) {
                     return 0;
                 });
                 console.log('sorted', chairs)
-                ul.HTML = "";
+                ul.innerHTML = "";
                 renderChairsToPage(chairs);
 
             } else if (sortValue === "descending") {
                 chairs.reverse();
                 //clear page
-                ul.HTML = "";
+                ul.innerHTML = "";
                 renderChairsToPage(chairs);
             }
 
