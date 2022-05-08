@@ -5,7 +5,7 @@ const chairs = [
         material: "wood",
         designer: "Raw Edges",
         country: "England",
-        image: "https://images.squarespace-cdn.com/content/v1/5523bc4ce4b05485b52b391e/1463666353814-CK846CT2622HA24HEYPY/image-asset.jpeg?format=1500w"
+        image: "https://inhabitat.com/wp-content/blogs.dir/1/files/2016/04/herringbone5-600x480.jpg"
     },
     {
         name: "Grano",
@@ -29,7 +29,7 @@ const chairs = [
         material: "glass",
         designer: "Danny Lane",
         country: "England",
-        image: "https://www.cmog.org/sites/default/files/styles/cmog_primary_image/public/collections/F7/F7330940-C2A6-4033-8BCF-5668A8111BA8.jpg?itok=9KwNQajW"
+        image: "http://www.artnet.com/WebServices/images/ll00413lldKUbJFg8ZECfDrCWvaHBOcDqxF/danny-lane-danny-lane-side-chair.jpg"
     },
     {
         name: "Dehmel Chair",
@@ -45,7 +45,7 @@ const chairs = [
         material: "plastic",
         designer: "Werner Aisslinger",
         country: "Germany",
-        image: "https://www.aisslinger.de/app/uploads/soft_cell_content_001-1.jpg"
+        image: "https://www.aisslinger.de/app/uploads/gel_chair_content_001.jpg"
     },
     {
         name: "S-Chair",
@@ -61,7 +61,7 @@ const chairs = [
         material: "wood",
         designer: "Ferdinand Kramer",
         country: "Germany",
-        image: "https://franklandau.com/images/picture-teaser/thonet_ferdinand_kramer_815-2.jpg"
+        image: "https://cdn.shopify.com/s/files/1/0447/1381/products/armchair-model-b403f-ferdinand-kramer-thonet-germany-1927-819602_1024x1024.jpg?v=1636640579"
     },
     {
         name: "Carbon Balloon Chair",
@@ -115,7 +115,7 @@ const chairs = [
         material: "plastic",
         designer: "Bertjan Pot",
         country: "Netherlands",
-        image: "http://www.bertjanpot.nl/wp-content/uploads/2003/08/random_chair_3_SBP-portfolio.jpg"
+        image: "https://shop.gessato.com/wp-content/uploads/2013/03/randomchair_stool.png"
     },
     {   name: "RZ 60",
         year: "1960",
@@ -210,7 +210,7 @@ const chairs = [
         material: "cord",
         designer: "Marcel Wanders",
         country: "Netherlands",
-        image: "https://cdn.shopify.com/s/files/1/0508/7988/9594/products/CAP-knotted-chair-iso-3_3240x1823_e88ab48d-156d-4b27-ba78-dbb512a02731.jpg?v=1617898819"
+        image: "https://img.vntg.com/large/16171000368873/knotted-chair-by-marcel-wander-netherlands-1990s.jpg"
     },
     {
         name: "Joe",
@@ -242,7 +242,7 @@ const chairs = [
         material: "glass",
         designer: "Cini Boeri",
         country: "Italy",
-        image: "https://www.salvioniarredamenti.it/wp-content/uploads/2020/04/ghost-fiam-1.jpg"
+        image: "https://img1.cgtrader.com/items/2507246/d24ed21590/large/ghost-chair-by-cini-boeri-3d-model-max-obj-fbx.jpg"
     },
     {
         name: "Favela",
@@ -250,7 +250,7 @@ const chairs = [
         material: "wood",
         designer: "Fernando & Humberto Campana",
         country: "Brazil",
-        image: "https://static.dezeen.com/uploads/2016/07/Campana-Brothers-Favela-chair-Most-loved-_dezeen_youtube.jpg"
+        image: "https://mydesignlife.com/dev/wp-content/uploads/2014/06/Favela%20Chair-1024x1024.jpg"
     },
     {
         name: "Extension de generosite",
@@ -266,7 +266,7 @@ const chairs = [
         material: "fabric",
         designer: "Terje Ekstrom",
         country: "Norway",
-        image: "https://varierchairs.com/wp-content/uploads/2019/07/Ekstrem_frontside_KNI088_370088_UK370004-1.png"
+        image: "https://sedie.design/by/pub/media/catalog/product/cache/3edb4698c8b158023517edf075ec1648/v/r/vrr-poltrona-ekstrem-00.jpg"
     },
     {
         name: "E 10",
@@ -380,7 +380,6 @@ const chairs = [
         country: "Finland",
         image: "https://www.moma.org/media/W1siZiIsIjkzOTUiXSxbInAiLCJjb252ZXJ0IiwiLXF1YWxpdHkgOTAgLXJlc2l6ZSAyMDAweDE0NDBcdTAwM2UiXV0.jpg?sha=a8fad75c14c50c0b"
     },
-
     {
         name: "Large Diamond Chair",
         year: "1950",
@@ -389,7 +388,6 @@ const chairs = [
         country: "USA",
         image: "https://img.vntg.com/large/16254342772317/early-black-diamond-chair-by-harry-bertoia-for-knoll-international.jpg"
     },
-
     {
         name: "31",
         year: "1932",
@@ -398,14 +396,13 @@ const chairs = [
         country: "Finland",
         image: "https://collectionapi.metmuseum.org/api/collection/v1/iiif/483067/1006243/restricted"
     },
-
     {
         name: "Box Chair",
         year: "1971",
         material: "plastic",
         designer: "Enzo Mari",
         country: "Italy",
-        image: "https://modernity.ams3.cdn.digitaloceanspaces.com/2015/05/2_2131429_chairs-box-designed-by-enzo-mari-for-driade.jpeg"
+        image: "https://64.media.tumblr.com/3a483435b7b580d6acded3f9e7d53e5e/1fca0147057482a6-15/s640x960/53cc020d323bbfd27badec771f098490c3da9063.jpg"
     },
     {
         name: "Bellevue",
@@ -504,12 +501,12 @@ const chairs = [
         image: "https://www.artic.edu/iiif/2/498cf884-0602-3248-095c-2810f3584d6b/full/843,/0/default.jpg"
     },
     {
-        name: "Salon Chair",
-        year: "1936",
+        name: "Lounge Chair",
+        year: "1938",
         material: "metal",
         designer: "Warren McArthur",
         country: "USA",
-        image: "https://images-na.ssl-images-amazon.com/images/I/61DUkrNHMhL.jpg"
+        image: "https://image.invaluable.com/housePhotos/palmmodern/16/628316/H4298-L147530351.jpg"
     },
     {
         name: "Alu Chair",
